@@ -8,12 +8,12 @@ public class HelloWorld : MonoBehaviour
     void Start()
     {
         // output on the console of unity
+        Destroy(gameObject);
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject);
     }
 }
